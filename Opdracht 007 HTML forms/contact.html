@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Bed contact </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>test </header>
+
+<body>
+
+
+    <div id="logo"> 
+        <h1> Sticky Bed  </h1>
+        <a class="slogan">Het dekbed dat blijft zitten</a>
+
+
+    </div>
+    
+    <div id="nav"> 
+        <ul class="mainnav">
+
+            <li><a href="index.html">   Home        </a>                   </li>
+            <li><a href="overons.html"> Over ons    </a>                   </li>
+            <li><a href="contact.html"> Contact      </a>                    </li>
+
+        </ul>
+    </div>
+
+
+    <div id="foto"> Bel/mail/app voor een afspraak</div>
+
+    <div id="contactgegevens">
+        <p>afspraak@stickybed.nl // Tel 06-51558943</p>
+     
+    </div>
+
+
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Your Role: <select name="role[]" multiple>
+            <option value="leader">Leader</option>
+            <option value="follower">Follower</option>
+          </select></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+    
+
+
+</body>
+</html>
